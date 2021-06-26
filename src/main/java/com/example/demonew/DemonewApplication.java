@@ -14,6 +14,11 @@ public class DemonewApplication {
 		return "Successfully done - buddy !!!!";
 	}
 
+	@GetMapping("/messageTwo")
+	public String messageNew() {
+		return "Successfully done again - buddy !!!!";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemonewApplication.class, args);
 	}
